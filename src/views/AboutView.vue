@@ -186,29 +186,24 @@ export default {
         </div>
       </header>
 
-      <section
-        class="text-sm md:text-lg text-justify flex flex-col gap-4 md:flex-row md:gap-8 md:justify-left md:items-center">
-        <div class="flex">
-          <img class="w-10/12 ml-5 rounded-full mb-16 fadein-up"
-            src="/img/Khemarint.png" alt="Foto">
-        </div>
-        <div class="md:w-10/15">
-          <p class="mb-3 md:mb-7 fadein-left fadeins-1">
-            &nbsp; &nbsp; &nbsp; Hi everyone! My name is Phong KhanKhemarint. I'm a webdeveloper from Battambong province.
-            I really enjoy what I do right now, in my opinion, creating programs is not just a job, but also an art that
-            has
-            aesthetic value
-          </p>
-          <p class="mb-3 fadein-left fadeins-2">
-            &nbsp; &nbsp; &nbsp; My job is to build your website to be functional and user-friendly yet still attractive.
-            In addition, I provide a personal touch to your product and ensure that the website catches attention and is
-            easy to use.
-            My goal is to convey your message and identity in the most creative way. If you are interested in hiring me,
-            please contact the listed contact.
-          </p>
-        </div>
+      <section class="flex flex-col md:flex-row gap-4 md:gap-8 md:justify-left md:items-start">
+  <div class="flex flex-col md:w-1/3 items-center mb-4 md:mb-0">
+    <img class="w-10/11 md:w-3/4 mx-auto rounded-full fadein-up" src="/img/Khemarint.png" alt="Foto">
+    <p class="text-amber-200 mt-2 text-center">Junior Developer</p>
+  </div>
+  <div class="md:w-2/3">
+    <p class="mb-3 md:mb-7 fadein-left fadeins-1 text-justify indent">
+      Hello there! I'm Phong Khankhemarint, a third-year IT student at NUBB College. In addition to my studies, I am a dedicated Full Stack Developer. I have honed my skills in designing, developing, and debugging full stack applications. I am adept at both front-end and back-end languages, and I am always eager to learn new technologies and frameworks. I believe in writing clean, efficient code that brings ideas to life and drives user engagement.
+    </p>
+    <p class="mb-3 fadein-left fadeins-2 text-justify indent">
+      In my academic journey, I am driven by my passion for technology and my desire to delve into the world of Cybersecurity. I am gaining a deep understanding of network design and infrastructure, which forms the backbone of Cybersecurity. I am learning how to troubleshoot network issues, secure networks from potential threats, and ensure data is transmitted efficiently and securely. Furthermore, I am learning about the various methods to protect systems, networks, and programs from digital attacks. I am gaining knowledge about how to deal with threats and vulnerabilities to ensure the safety and security of digital assets.
+    </p>
+    <p class="mb-3 fadein-left fadeins-3 text-justify indent">
+      Balancing between the creative realm of Full Stack Development and the critical field of Cybersecurity, I bring a unique perspective to problem-solving. I am not just about making things work; I am about making things work better.
+    </p>
+  </div>
+</section>
 
-      </section>
 
     </article>
   </div>
@@ -227,23 +222,28 @@ export default {
           <ul class="flex flex-wrap text-sm font-medium text-center text-gray-500 dark:text-gray-400 mb-5">
             <li class="mr-2">
               <button class="inline-block px-4 py-3 rounded-lg hover:text-white"
-                :class="{ 'text-amber-200 bg-amber-200 bg-opacity-10': activeTab === 1 }" @click="activeTab = 1">Front-End</button>
+                :class="{ 'text-amber-200 bg-amber-200 bg-opacity-10': activeTab === 1 }"
+                @click="activeTab = 1">Front-End</button>
             </li>
             <li class="mr-2">
               <button class="inline-block px-4 py-3 rounded-lg hover:text-white"
-                :class="{ 'text-amber-200 bg-amber-200 bg-opacity-10': activeTab === 2 }" @click="activeTab = 2">Back-End</button>
+                :class="{ 'text-amber-200 bg-amber-200 bg-opacity-10': activeTab === 2 }"
+                @click="activeTab = 2">Back-End</button>
             </li>
             <li class="mr-2">
               <button class="inline-block px-4 py-3 rounded-lg hover:text-white"
-                :class="{ 'text-amber-200 bg-amber-200 bg-opacity-10': activeTab === 3 }" @click="activeTab = 3">Database</button>
+                :class="{ 'text-amber-200 bg-amber-200 bg-opacity-10': activeTab === 3 }"
+                @click="activeTab = 3">Database</button>
             </li>
             <li class="mr-2">
               <button class="inline-block px-4 py-3 rounded-lg hover:text-white"
-                :class="{ 'text-amber-200 bg-amber-200 bg-opacity-10': activeTab === 4 }" @click="activeTab = 4">Tools</button>
+                :class="{ 'text-amber-200 bg-amber-200 bg-opacity-10': activeTab === 4 }"
+                @click="activeTab = 4">Tools</button>
             </li>
             <li class="mr-2">
               <button class="inline-block px-4 py-3 rounded-lg hover:text-white"
-                :class="{ 'text-amber-200 bg-amber-200 bg-opacity-10': activeTab === 5 }" @click="activeTab = 5">other</button>
+                :class="{ 'text-amber-200 bg-amber-200 bg-opacity-10': activeTab === 5 }"
+                @click="activeTab = 5">other</button>
             </li>
           </ul>
         </div>
@@ -375,12 +375,20 @@ export default {
   }
 }
 
+.indent {
+  text-indent: 2em;
+}
+
 .fadeins-1 {
   animation-delay: 500ms;
 }
 
 .fadeins-2 {
   animation-delay: 800ms;
+}
+
+.fadeins-3 {
+  animation-delay: 1000ms;
 }
 
 .img-tech,
@@ -398,5 +406,4 @@ export default {
 
 .item-tech:hover .status-tech {
   opacity: 1;
-}
-</style>
+}</style>
