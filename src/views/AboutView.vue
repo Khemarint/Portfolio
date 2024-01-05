@@ -193,7 +193,7 @@ export default {
   </div>
   <div class="md:w-2/3">
     <p class="mb-3 md:mb-7 fadein-left fadeins-1 text-justify indent">
-      Hello there! I'm Phong Khankhemarint, a third-year IT student at NUBB College. In addition to my studies, I am a dedicated Full Stack Developer. I have honed my skills in designing, developing, and debugging full stack applications. I am adept at both front-end and back-end languages, and I am always eager to learn new technologies and frameworks. I believe in writing clean, efficient code that brings ideas to life and drives user engagement.
+      Hello there! I'm Khemarint, a third-year IT student at NUBB University. In addition to my studies, I am a dedicated Full Stack Developer. I have honed my skills in designing, developing, and debugging full stack applications. I am adept at both front-end and back-end languages, and I am always eager to learn new technologies and frameworks. I believe in writing clean, efficient code that brings ideas to life and drives user engagement.
     </p>
     <p class="mb-3 fadein-left fadeins-2 text-justify indent">
       In my academic journey, I am driven by my passion for technology and my desire to delve into the world of Cybersecurity. I am gaining a deep understanding of network design and infrastructure, which forms the backbone of Cybersecurity. I am learning how to troubleshoot network issues, secure networks from potential threats, and ensure data is transmitted efficiently and securely. Furthermore, I am learning about the various methods to protect systems, networks, and programs from digital attacks. I am gaining knowledge about how to deal with threats and vulnerabilities to ensure the safety and security of digital assets.
