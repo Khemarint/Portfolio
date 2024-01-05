@@ -152,13 +152,13 @@ export default {
         },
         {
           id: 3,
-          name: 'Cisco Packet Tracer',
+          name: 'Cisco',
           imageUrl: '/img/Cisco.png',
           status: 'Network Simulation'
         },
         {
           id: 4,
-          name: 'Microsoft Window',
+          name: 'Window',
           imageUrl: '/img/window.png',
           status: 'Operating System'
         },
