@@ -35,22 +35,10 @@ export default {
           status: 'Intermediate'
         },
         {
-          id: 6,
-          name: 'Nuxt',
-          imageUrl: '/img/Nuxt.png',
-          status: 'Beginner'
-        },
-        {
           id: 7,
           name: 'Tailwind CSS',
           imageUrl: '/img/tailwind.png',
           status: 'Intermediate'
-        },
-        {
-          id: 8,
-          name: 'Vuetify',
-          imageUrl: '/img/vuetify.png',
-          status: 'Beginner'
         },
       ],
       backend: [
@@ -166,6 +154,12 @@ export default {
           id: 5,
           name: 'Linux',
           imageUrl: '/img/linux.png',
+          status: 'Operating System'
+        },
+        {
+          id: 6,
+          name: 'Kali',
+          imageUrl: '/img/kali.png',
           status: 'Operating System'
         },
       ]
