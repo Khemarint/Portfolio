@@ -183,7 +183,7 @@ export default {
       <section class="flex flex-col md:flex-row gap-4 md:gap-8 md:justify-left md:items-start">
   <div class="flex flex-col md:w-1/3 items-center mb-4 md:mb-0">
     <img class="w-10/11 md:w-3/4 mx-auto rounded-full fadein-up" src="/img/Khemarint.png" alt="Foto">
-    <p class="text-amber-200 mt-2 text-center">Junior Developer</p>
+    <p class="text-amber-200 mt-2 text-center fadein-up">Junior Developer</p>
   </div>
   <div class="md:w-2/3">
     <p class="mb-3 md:mb-7 fadein-left fadeins-1 text-justify indent">

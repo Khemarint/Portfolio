@@ -40,6 +40,8 @@ const router = createRouter({
 })
 
 router.beforeEach((to, from, next) => {
+
+
   document.title = to.meta.title + ' - KhemarintPhong'; // Mengambil judul dari meta atau mengatur judul default jika tidak ada
   next();
 });
