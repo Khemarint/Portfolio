@@ -78,13 +78,13 @@ export default {
           id: 1,
           name: 'MongoDB',
           imageUrl: '/img/Mongodb.png',
-          status: 'advance'
+          status: 'NoSQL'
         },
         {
           id: 2,
           name: 'Microsoft SQL',
           imageUrl: '/img/MSS.png',
-          status: 'advance'
+          status: 'SQL'
         },
       ],
       tools: [
