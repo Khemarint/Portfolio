@@ -71,6 +71,12 @@ export default {
           name: 'C sharp',
           imageUrl: '/img/Csharp.png',
           status: 'advance'
+        },
+        {
+          id: 6,
+          name: 'PHP',
+          imageUrl: '/img/PHP.png',
+          status: 'Beginner'
         }
       ],
       database: [
@@ -84,6 +90,12 @@ export default {
           id: 2,
           name: 'Microsoft SQL',
           imageUrl: '/img/MSS.png',
+          status: 'SQL'
+        },
+        {
+          id: 3,
+          name: 'My SQL',
+          imageUrl: '/img/Mysql.png',
           status: 'SQL'
         },
       ],
