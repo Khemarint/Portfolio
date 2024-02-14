@@ -6,11 +6,11 @@ export default {
       items: [
         {
           id: 1,
-          name: 'None',
-          imageUrl: 'None',
-          status: 'None',
-          tech: 'None',
-          github: 'None',
+          name: 'Shop Management System',
+          imageUrl: 'https://raw.githubusercontent.com/Khemarint/Shop-Mangement-System/master/Images/shop.jpg',
+          status: 'Software Application(Active)',
+          tech: 'C# ',
+          github: 'https://github.com/Khemarint/Shop-Mangement-System.git',
           demo: 'None'
         },
         {
@@ -46,8 +46,8 @@ export default {
               <div
                 class="item-card flex flex-col items-center gap-2 bg-[#1e1e1f] hover:bg-[#282828] border border-[#383838] rounded-xl text-amber-50 md:gap-3 px-5 py-5 lg:px-5 ">
                 <div class="flex items-center justify-center p-0 h-full w-full lg:p-0 zoom-in">
-                  <img alt="HTML" loading="lazy" decoding="async" data-nimg="1" class="drop-shadow-xl rounded-xl"
-                    :src="'/img/portfolio-' + item.imageUrl + '.png'">
+                  <img alt="HTML" loading="lazy" decoding="async" data-nimg="1" class="drop-shadow-xl rounded-xl" :src="item.imageUrl">
+
                 </div>
                 <div class="w-full flex flex-col gap-2 items-center text-sm md:text-base lg:text-lg">
                   <div class="title-text font-medium text-secondary">{{ item.name }}
