@@ -44,36 +44,24 @@ export default {
       backend: [
         {
           id: 1,
-          name: 'Nodejs',
-          imageUrl: '/img/Nodejs.png',
-          status: 'Intermediate'
-        },
-        {
-          id: 3,
-          name: 'Expressjs',
-          imageUrl: '/img/Express.png',
-          status: 'Intermediate'
-        },
-        {
-          id: 3,
           name: 'Python',
           imageUrl: '/img/Python.png',
           status: 'Intermediate'
         },
         {
-          id: 4,
+          id: 2,
           name: 'Java',
           imageUrl: '/img/Java.png',
           status: 'advance'
         },
         {
-          id: 5,
+          id: 3,
           name: 'C sharp',
           imageUrl: '/img/Csharp.png',
           status: 'advance'
         },
         {
-          id: 6,
+          id: 4,
           name: 'PHP',
           imageUrl: '/img/PHP.png',
           status: 'Beginner'
@@ -82,18 +70,12 @@ export default {
       database: [
         {
           id: 1,
-          name: 'MongoDB',
-          imageUrl: '/img/Mongodb.png',
-          status: 'NoSQL'
-        },
-        {
-          id: 2,
           name: 'Microsoft SQL',
           imageUrl: '/img/MSS.png',
           status: 'SQL'
         },
         {
-          id: 3,
+          id: 2,
           name: 'My SQL',
           imageUrl: '/img/Mysql.png',
           status: 'SQL'
@@ -124,18 +106,6 @@ export default {
           imageUrl: '/img/Yarn.png',
           status: 'Package Manager'
         },
-        {
-          id: 5,
-          name: 'Jest',
-          imageUrl: '/img/Jest.png',
-          status: 'Unit testing'
-        },
-        {
-          id: 6,
-          name: 'Cypress',
-          imageUrl: '/img/Cypress.png',
-          status: 'E2E testing'
-        },
       ],
       other: [
         {
@@ -151,6 +121,12 @@ export default {
           status: 'IDE'
         },
         {
+          id:3,
+          name: 'IntelliJ',
+          imageUrl:'/img/IntelliJ.png',
+          status: 'IDE'
+        },
+        {
           id: 3,
           name: 'Cisco',
           imageUrl: '/img/Cisco.png',
@@ -160,12 +136,6 @@ export default {
           id: 4,
           name: 'Window',
           imageUrl: '/img/window.png',
-          status: 'Operating System'
-        },
-        {
-          id: 5,
-          name: 'Linux',
-          imageUrl: '/img/linux.png',
           status: 'Operating System'
         },
         {
