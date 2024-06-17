@@ -40,32 +40,39 @@ export default {
           imageUrl: '/img/tailwind.png',
           status: 'Intermediate'
         },
+        {
+          id: 8,
+          name: 'Flutter',
+          imageUrl: '/img/Flutter.png',
+          status: 'Intermediate'
+        },
       ],
       backend: [
         {
           id: 1,
-          name: 'Python',
-          imageUrl: '/img/Python.png',
-          status: 'Intermediate'
-        },
-        {
-          id: 2,
           name: 'Java',
           imageUrl: '/img/Java.png',
           status: 'advance'
         },
         {
-          id: 3,
+          id: 2,
           name: 'C sharp',
           imageUrl: '/img/Csharp.png',
           status: 'advance'
         },
         {
-          id: 4,
+          id: 3,
           name: 'PHP',
           imageUrl: '/img/PHP.png',
-          status: 'Beginner'
-        }
+          status: 'Advance'
+        },
+        {
+          id: 4,
+          name: 'Laravel',
+          imageUrl: '/img/Laravel.png',
+          status: 'Advance'
+        },
+
       ],
       database: [
         {
@@ -106,6 +113,19 @@ export default {
           imageUrl: '/img/Yarn.png',
           status: 'Package Manager'
         },
+        {
+          id: 5,
+          name: 'Postman',
+          imageUrl: '/img/Postman.png',
+          status: 'API Tester'
+        },
+        {
+          id: 6,
+          name: 'XAMP',
+          imageUrl: '/img/xamp.png',
+          status: 'Server-Stack'
+        },
+
       ],
       other: [
         {
@@ -122,8 +142,8 @@ export default {
         },
         {
           id:3,
-          name: 'IntelliJ',
-          imageUrl:'/img/IntelliJ.png',
+          name: 'Android',
+          imageUrl:'/img/Android.png',
           status: 'IDE'
         },
         {
@@ -134,14 +154,26 @@ export default {
         },
         {
           id: 4,
+          name: 'VMware',
+          imageUrl: '/img/Vmware.png',
+          status: 'Virtualization Software'
+        },
+        {
+          id: 4,
           name: 'Window',
           imageUrl: '/img/window.png',
           status: 'Operating System'
         },
         {
+          id: 5,
+          name: 'Microsoft Office',
+          imageUrl: '/img/Office.png',
+          status: 'Office Software'
+        },
+        {
           id: 6,
-          name: 'Kali',
-          imageUrl: '/img/kali.png',
+          name: 'Ubunto',
+          imageUrl: '/img/Ubunto.png',
           status: 'Operating System'
         },
       ]
