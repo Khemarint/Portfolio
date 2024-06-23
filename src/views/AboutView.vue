@@ -87,6 +87,12 @@ export default {
           imageUrl: '/img/Mysql.png',
           status: 'SQL'
         },
+        {
+          id: 3,
+          name: 'SQLlite',
+          imageUrl: '/img/Sqlflite.png',
+          status: 'SQL'
+        },
       ],
       tools: [
         {
